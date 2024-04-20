@@ -1,0 +1,37 @@
+/* All the CSS related to answers Page*/
+.answer {
+    display: flex;
+    flex-direction: row;
+    border-bottom: #000000 1px dashed;
+}
+
+.answerText {
+    width: 60%;
+}
+
+.answerAuthor {
+    margin-left: 5%;
+}
+
+.answer_author {
+    color: green;
+}
+
+.button_comment {
+    color: #ffffff;
+    background: rgb(253, 80, 80);
+    border-width: 0;
+    border-radius: 5px;
+    margin-left: auto; /* To push it to the right */
+    margin-right: 20px !important;
+    padding: 8px 12px; /* Adjust padding for smaller size */
+    width: auto; /* Allow the button to adjust its width based on content */
+    display: inline-block; /* Ensure it's displayed inline */
+    text-align: center; /* Center text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button_comment:hover {
+    background: rgb(116, 2, 2); /* Darken the color on hover */
+}
