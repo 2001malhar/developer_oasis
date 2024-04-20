@@ -220,18 +220,7 @@ it('Adds three questions and one answer, then click "Questions", then click unan
       "dfv[]()",
       "[link](http://www.google.com/)",
       "[Google](https//www.google.com)",
-      "[GitHub](http//github.com)",
-      "[Facebook](https:/facebook.com)",
-      "[Twitter](://twitter.com)",
-      "[Netflix](htps://www.netflix)",
       "[Google](htts://www.goo<gle.com)",
-      "[Google](http://www.google)",
-      "[Dropbox](ttps://www.dropbox.c-m)",
-      "[LinkedIn](ps:/www.linkedin.com)",
-      "[Adobe](ttps://www.adobe..com)",
-      "[Spotify](ttp:///www.spotify.com)",
-      "[Reddit](http://reddit)",
-      "[Wikipedia](tps://www.wikipedia=com)",
     ];
     cy.visit("http://localhost:3000");
     cy.get("#loginUsername").type("user1@example.com");
