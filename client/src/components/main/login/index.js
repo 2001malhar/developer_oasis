@@ -111,7 +111,7 @@ const LoginComponent = ({ setToken }) => {
           <InputField
             type="text"
             id="loginUsername"
-            placeholder="Username"
+            placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
