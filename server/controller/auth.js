@@ -50,7 +50,7 @@ router.post('/login', async (req, res) => {
 
     // generate new token
     const token = jwt.sign({ username: user.username, id: user.id, email: user.email }, "abc", {
-      expiresIn: "48h",
+      expiresIn: "24h",
     });
     // save in session
     req.session.token = token;
