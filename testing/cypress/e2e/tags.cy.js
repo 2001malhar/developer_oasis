@@ -1,11 +1,11 @@
 describe("Cypress Tests repeated from React assignment", () => {
 
     beforeEach(() => {
-        cy.exec("node ../server/populate_db.js mongodb://127.0.0.1:27017/fake_so");
+        cy.exec("node ../server/init.js");
       });
     
       afterEach(() => {
-        cy.exec("node ../server/remove_db.js mongodb://127.0.0.1:27017/fake_so");
+        cy.exec("node ../server/destroy.js");
       });
       
 it("Go to question in tag react", () => {

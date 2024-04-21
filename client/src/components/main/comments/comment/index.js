@@ -1,7 +1,5 @@
 import { handleHyperlink } from "../../../../tool";
-// import "./index.css";
 
-// Component for the Answer Page
 const Comment = ({ text, comment_by,meta}) => {
     return (
         <div className="answer right_padding">

@@ -1,11 +1,11 @@
 describe("Cypress Tests for Login", () => {
 
     beforeEach(() => {
-        cy.exec("node ../server/populate_db.js mongodb://127.0.0.1:27017/fake_so");
+        cy.exec("node ../server/init.js");
       });
     
       afterEach(() => {
-        cy.exec("node ../server/remove_db.js mongodb://127.0.0.1:27017/fake_so");
+        cy.exec("node ../server/destroy.js");
       });    
 
 it('0.1 | Login user after register ,', () => {

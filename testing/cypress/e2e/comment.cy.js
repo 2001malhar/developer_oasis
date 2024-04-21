@@ -1,11 +1,11 @@
 describe("Cypress Tests for Comments", () => {
 
     beforeEach(() => {
-        cy.exec("node ../server/populate_db.js mongodb://127.0.0.1:27017/fake_so");
+        cy.exec("node ../server/init.js");
       });
     
       afterEach(() => {
-        cy.exec("node ../server/remove_db.js mongodb://127.0.0.1:27017/fake_so");
+        cy.exec("node ../server/destroy.js");
       });
 
 it("Clicks on comments and opens comments page", () => {

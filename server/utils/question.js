@@ -1,6 +1,5 @@
 const Tag = require("../models/tags");
 const Question = require("../models/questions");
-// const Answer = require("../models/answers");
 
 const addTag = async (tname) => {
     console.log(tname)

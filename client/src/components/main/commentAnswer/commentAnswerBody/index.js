@@ -3,7 +3,7 @@ import React from "react";
 import { handleHyperlink } from "../../../../tool";
 
 // Component for the Question's Body
-const CommentBody = ({ views, text, askby, meta }) => {
+const CommentBody = ({ text, askby, meta }) => {
     return (
         <div id="questionBody" className="questionBody right_padding">
             <div className="answer_question_text">{handleHyperlink(text)}</div>

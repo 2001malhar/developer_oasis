@@ -5,7 +5,6 @@ import AnswerHeader from "./header";
 import "./index.css";
 import QuestionBody from "./questionBody";
 import { getQuestionById } from "../../../services/questionService";
-import { getAnswerById } from "../../../services/answerService";
 
 // Component for the Answers page
 const AnswerPage = ({ qid, handleNewQuestion, handleNewAnswer,handleCommentsAnswer }) => {

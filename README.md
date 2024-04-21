@@ -21,4 +21,11 @@ Clearly indicate which feature is an additional feature for extra credit.
 
 ## Instructions to generate and view coverage report 
 
-This counts for extra credit. Ignore if you haven't implemented it.
+testing\coverage\lcov-report\index.html
+
+## Instructions for e2e tests
+
+If while running the e2e tests there is a time where no data can be seen in the screen, please destroy the database and restart the server and run that tests again. This happens because of the limiter function which does not validate many login requests from that user. 
+
+Also as the database error test is tested in the answer.test.js it will fail one test at 1st time but rerun it and it will pass.
+This is due to error testing test.
