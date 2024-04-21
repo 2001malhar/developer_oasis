@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 const jwt = require('jsonwebtoken');
 
 exports.authMiddleware = (req, res, next) => {
@@ -23,7 +21,7 @@ exports.authMiddleware = (req, res, next) => {
   }
 
   try {
-      req.user = jwt.verify(token,process.env.SECRET );
+      req.user = jwt.verify(token,"abc");
       next();
   } catch (err) {
       return res.status(401).json({

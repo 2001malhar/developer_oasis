@@ -3,7 +3,6 @@ const express = require('express')
 const router = express.Router()
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-require("dotenv").config();
 
 
 router.post('/register', async (req, res) => {
@@ -50,7 +49,7 @@ router.post('/login', async (req, res) => {
     }
 
     // generate new token
-    const token = jwt.sign({ username: user.username, id: user.id, email: user.email }, process.env.SECRET, {
+    const token = jwt.sign({ username: user.username, id: user.id, email: user.email }, "abc", {
       expiresIn: "48h",
     });
     // save in session
