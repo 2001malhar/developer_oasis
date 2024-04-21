@@ -3,8 +3,6 @@ const mongoose = require("mongoose");
 // let mongoDB = userArgs[0];
 const { MONGO_URL } = require("./config");
 
-let userArgs = process.argv.slice(2);
-
 
 let Tag = require('./models/tags')
 let Answer = require('./models/answers')

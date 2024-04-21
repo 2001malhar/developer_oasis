@@ -8,9 +8,11 @@ const cors = require("cors");
 const session = require("express-session")
 const morgan = require("morgan");
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/fake_so";
-const CLIENT_URL = "http://localhost:3000";
-const port = 8000;
+// const MONGO_URL = "mongodb://127.0.0.1:27017/fake_so";
+// const CLIENT_URL = "http://localhost:3000";
+// const port = 8000;
+
+const { MONGO_URL,CLIENT_URL, port } = require("./config");
 
 const sessionOptions = {
     name:'session',
@@ -28,6 +30,8 @@ const sessionOptions = {
 }
 
 mongoose.connect(MONGO_URL);
+
+// mongoose.connect("mongodb://mongodb:27017/fake_so");
 
 const app = express();
 
