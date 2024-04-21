@@ -18,12 +18,11 @@ const sessionOptions = {
     saveUninitialized: false,
     secret : 'mylittlesecret',
     cookie: {
-        // domain: 'localhost:2000',
-        // sameSite: 'lax',
         expires: new Date(
-            Date.now() + 1000000 * 1000 * 60 * 60 * 24
+            Date.now() + 1 * 1000 * 60 * 60 * 24
         ),
-        httpOnly: false,
+        httpOnly: true,
+        sameSite: true,
         secure: false
     }
 }
