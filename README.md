@@ -31,7 +31,18 @@ This is due to error testing test.
 
 ## If user wants to run file locally.
 
-if user wanto to run the project locally the will need to change the MONGO URL in the config.js file , and also in destroy.js file
+if user wanto to run the project locally the will need to change the MONGO URL in the config.js file.
+
+And the user needs to also add the packages 
+npm install  
+jsonwebtoken
+morgan
+bcrypt
+dotenv
+js-cookie
+express-rate-limit
+
+config.js => Change to 'mongodb://localhost:27017/fake_so'
 
 ## Login Credentials 
 
