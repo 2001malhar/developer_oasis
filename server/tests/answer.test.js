@@ -2,7 +2,8 @@ const Answer = require('../models/answers');
 const supertest = require('supertest');
 const mongoose = require("mongoose");
 const jwt = require('jsonwebtoken');
-// import { SECRET } from '../constant';
+
+//This are the tests for the endpoints of the "/getAnswerById"/:qid.
 
 jest.mock('../models/answers', () => {
   const mockAnswer = {

@@ -4,6 +4,8 @@ const jwt = require('jsonwebtoken');
 const app = require('../server');
 const User = require('../models/users');
 
+// This are the tests for the /login endpoint.
+
 jest.mock('..//models/users');
 
 describe('POST /login', () => {

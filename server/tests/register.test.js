@@ -1,3 +1,5 @@
+//Unit tests for endpoint /register in controller/auth.js.
+
 const supertest = require('supertest');
 const bcrypt = require('bcrypt');
 const app = require('../server'); 

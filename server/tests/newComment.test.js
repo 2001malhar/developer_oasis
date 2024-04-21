@@ -6,7 +6,8 @@ const Question = require("../models/questions");
 const Answer = require("../models/answers");
 const jwt = require('jsonwebtoken');
 
-// Mock the Comment model
+//Unit tests for /addComment in controller/comment.js
+ 
 jest.mock("../models/comments");
 
 const generateToken = () => {

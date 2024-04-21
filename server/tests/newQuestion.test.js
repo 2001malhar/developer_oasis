@@ -1,6 +1,5 @@
 // unit tests for functions in controller/question.js
 
-
 const supertest = require("supertest")
 const { default: mongoose } = require("mongoose");
 const jwt = require('jsonwebtoken');

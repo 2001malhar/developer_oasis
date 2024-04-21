@@ -1,5 +1,7 @@
+// Unit tests for endpoint /getQuestionByIdComment/:qid.
+
 const request = require('supertest');
-const app = require('../server'); // Assuming your server is set up in an 'app.js' file
+const app = require('../server'); 
 const mongoose = require('mongoose');
 const Question = require('../models/questions');
 const Comment = require("../models/comments")
