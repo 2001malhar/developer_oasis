@@ -16,7 +16,10 @@ Clearly indicate which feature is an additional feature for extra credit.
 
 ## Instructions to generate and view coverage report 
 
-testing\coverage\lcov-report\index.html
+cd server 
+npx jest --coverage
+
+here note that there will be tests that will fail here they are not actually failing but due to functions running asynchronously and the tests are for errors also that is why they will fail otherwise the tests are passing.
 
 ## Instructions for e2e tests
 
