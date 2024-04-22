@@ -26,17 +26,17 @@ Also they are sorted based on number of comments and number of views.
 
 ## For each feature indicate the test
 
-- Feature 1: testing\cypress\e2e\addQuestion.cy.js
+- Feature 1: Ask questions - testing\cypress\e2e\addQuestion.cy.js
 
-- Feature 2: testing\cypress\e2e\newAnswer.cy.js
+- Feature 2:  provide answers - testing\cypress\e2e\newAnswer.cy.js
 
-- Feature 3: testing\cypress\e2e\search.cy.js
+- Feature 3: Search for posts - testing\cypress\e2e\search.cy.js
 
-- Feature 4: testing\cypress\e2e\tags.cy.js
+- Feature 4: Tag posts - testing\cypress\e2e\tags.cy.js
 
-- Feature 5: testing\cypress\e2e\login.cy.js
+- Feature 5: Authenticate registered users - testing\cypress\e2e\login.cy.js 
 
-- Feature 6: testing\cypress\e2e\comment.cy.js
+- Feature 6: Comment on questions and answers - testing\cypress\e2e\comment.cy.js
 
 Additional Features:
 
