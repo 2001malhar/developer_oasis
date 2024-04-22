@@ -105,6 +105,10 @@ express-rate-limit
 
 config.js => Change to 'mongodb://localhost:27017/fake_so'
 
+## Intruction to run file through docker
+
+When the user starts the program please go to terminal of the server image and run "node destroy.js" and then run "node init.js". This will ensure that all the functions and tests are running as defined.
+
 ## Login Credentials 
 
 email : user1@example.com   
