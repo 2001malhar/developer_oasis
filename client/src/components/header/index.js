@@ -20,7 +20,7 @@ const Header = ({ search, setQuesitonPage,setToken }) => {
             </button>
 
             <div></div>
-            <div className="title">Fake Stack Overflow</div>
+            <div className="title">Developer Oasis</div>
             <input
                 id="searchBar"
                 placeholder="Search ..."
